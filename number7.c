@@ -2,14 +2,14 @@
 
 int main()
 {
-	int x;
-	int result;
+	double x;
+	double  result;
 
 	printf("Enter x number: ");
-	scanf("%d", &x);
+	scanf("%lf", &x);
 
-	result =x / (5 + 2) + 30 * x - 51 ;
-	printf ("Result would be : %d \n", result );
+	result = x/ (5+2) + 30 * x - 51;
+	printf ("Result would be : %lf \n", result );
 
 	return 0;
 }
