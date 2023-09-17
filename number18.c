@@ -5,7 +5,7 @@ int main() {
 
     for (A = 0; A <= 1; A++) {
         for (B = 0; B <= 1; B++) {
-            int result =  (A || B) && (!(B || A));
+            int result =  A || B && !(B || A);
             printf("A=%d, B=%d, Result=%d\n", A, B, result);
         }
     }
